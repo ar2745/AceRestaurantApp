@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AceRestaurantApp</string>
+    <string name="cart">cart</string>
+    <string name="search">Search</string>
+    <string name="appetizers">Apps</string>
+    <string name="entrees">Entree</string>
+    <string name="desserts">Desser</string>
+    <string name="drinks">Drink</string>
+    <string name="background_image">Background Image</string>
+    <string name="online_ordering">Online Ordering</string>
+    <string name="cart_summary">Cart Summary</string>
+    <string name="items_0_ntotal_0_00">Items: 0\nTotal: $0.00</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="ace_restaurant">Ace Restaurant</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="about_us">About Us</string>
+    <string name="about_description">Ace Restaurant is known for its exquisite culinary delights, offering a wide range of dishes made from the freshest ingredients…</string>
+    <string name="mission_statement_title">Our Mission</string>
+    <string name="mission_statement">To provide an unforgettable dining experience by combining excellent service with top-quality food…</string>
+    <string name="contact_info_title">Contact Us</string>
+    <string name="contact_info">Address: 123 Foodie Lane, Gourmet City\nPhone: (123) 456–7890\nEmail: info@acerestaurant.com</string>
+</resources>

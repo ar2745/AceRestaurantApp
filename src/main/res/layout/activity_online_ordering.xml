@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineOrderingActivity">
+
+    <!-- Background slideshow or image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/warm_backgrounds"
+        android:contentDescription="@string/background_image"
+        android:alpha="0.4" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/ordering_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/online_ordering"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp" />
+
+    <!-- RecyclerView for Menu Items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_ordering_items"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/ordering_title"
+        android:layout_above="@id/cart_summary_container"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <!-- Cart Summary Container -->
+    <LinearLayout
+        android:id="@+id/cart_summary_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#f1f1f1">
+
+        <TextView
+            android:id="@+id/cart_summary_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_summary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Cart Summary Details -->
+        <TextView
+            android:id="@+id/cart_summary_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/items_0_ntotal_0_00"
+            android:textSize="16sp" />
+
+        <!-- Proceed to Checkout Button -->
+        <Button
+            android:id="@+id/button_proceed_to_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proceed_to_checkout"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</RelativeLayout>
