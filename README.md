@@ -17,40 +17,6 @@ git clone https://github.com/yourusername/AceRestaurantApp.git
 Open the project in Android Studio.
 Build and run the project on an Android device or emulator.
 
-AceRestaurantApp/
-├── .idea/
-├── app/
-│   ├── build/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/acerestaurantapp/
-│   │   │   │   ├── AboutActivity.java
-│   │   │   │   ├── ContactActivity.java
-│   │   │   │   ├── HomeActivity.java
-│   │   │   │   ├── Item.java
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── MenuActivity.java
-│   │   │   │   ├── OnlineOrderingActivity.java
-│   │   │   │   ├── ReservationActivity.java
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_about.xml
-│   │   │   │   │   ├── activity_contact.xml
-│   │   │   │   │   ├── activity_home.xml
-│   │   │   │   │   ├── activity_main.xml
-│   │   │   │   │   ├── activity_menu.xml
-│   │   │   │   │   ├── activity_online_ordering.xml
-│   │   │   │   │   ├── activity_reservations.xml
-│   │   │   │   ├── values/
-│   │   │   │   │   ├── strings.xml
-│   ├── build.gradle.kts
-├── build.gradle.kts
-├── gradle/
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle.kts
-
 **Usage**
 MainActivity
 The entry point of the application where users can log in. If the login is successful, users are navigated to the HomeActivity.
