@@ -1,15 +1,17 @@
-AceRestaurantApp
+**AceRestaurantApp**
+
 AceRestaurantApp is an Android application designed to provide users with a seamless dining experience. Users can browse the menu, place online orders, make reservations, and contact the restaurant directly through the app.
 
-Features
+**Features**
+
 Menu Browsing: View detailed descriptions, prices, and ratings of various menu items.
 Online Ordering: Add items to the cart and proceed to checkout for a convenient online ordering experience.
 Reservations: Make reservations by selecting the date, time, and party size.
 Contact: Send messages directly to the restaurant for inquiries or feedback.
 About: Learn more about the restaurant, its mission, and contact information.
-Installation
-Clone the repository:
 
+**Installation**
+Clone the repository:
 
 git clone https://github.com/yourusername/AceRestaurantApp.git
 Open the project in Android Studio.
@@ -49,7 +51,7 @@ AceRestaurantApp/
 ├── gradlew.bat
 ├── settings.gradle.kts
 
-Usage
+**Usage**
 MainActivity
 The entry point of the application where users can log in. If the login is successful, users are navigated to the HomeActivity.
 
@@ -71,7 +73,7 @@ Provides a form for users to send messages directly to the restaurant.
 AboutActivity
 Displays information about the restaurant, including its mission statement and contact details.
 
-Contributing
+**Contributing**
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Make your changes.
@@ -81,7 +83,7 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
-For any inquiries or feedback, please contact us at info@acerestaurant.com.
+**Contact**
+For any inquiries or feedback, please contact the repository manager.
 
 Enjoy using AceRestaurantApp!
